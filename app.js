@@ -3,3 +3,9 @@ function getTest() {
 }
 
 getTest();
+
+const desc = document.querySelector(".description");
+
+desc.addEventListener("click", () => {
+  alert("OK");
+});
